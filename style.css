@@ -1,0 +1,504 @@
+body {
+  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(assets/DR_2013_0608OperaLille_14.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+
+    /*flexbox*/
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+}
+
+.heroOne {
+  flex-grow: 1;
+}
+
+.heroOne img {
+  max-width: 400px;
+}
+
+.heroTwo {
+  flex-grow: 2;
+}
+
+/*NAV*/
+
+.nav-center {
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+  color: #fff;
+  padding: 0;
+}
+
+.nav-center>li {
+  list-style-type: none;
+  margin: 0 10px;
+}
+
+.nav-center>li>a {
+    padding: 8px 0;
+    color: #fff;
+    font-size: 13px;
+    letter-spacing: 0.1em;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom ease-in-out 0.2s;
+}
+
+.nav-center>li>a:hover {
+  text-decoration: none;
+  border-bottom: 2px solid #ff4f5e;
+}
+
+
+/*FIXED BOTTOM NAVBAR*/
+
+.fixed-me{
+  opacity: .9;
+  position: fixed;
+  top:0;
+  z-index:888;
+  width: 100%;
+}
+
+
+/*HERO*/
+.heroTwo h1 {
+  font-weight: 400;
+  font-size: 35px;
+}
+
+.heroTwo p {
+  font-size: 20px;
+  margin: 30px auto 30px auto;
+  font-weight: 300;
+}
+
+.btn {
+    font-size: 12px;
+    letter-spacing: 0.1em;
+    padding: 15px 25px;
+    margin: 6px;
+    border: 0;
+    -webkit-transition: .2s ease-out;
+    transition: .2s ease-out;
+    white-space: normal!important;
+    word-wrap: break-word;
+    text-transform: uppercase;
+    /*box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);*/
+}
+
+.btn:hover {
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+  background-color: #ff4f5e;
+}
+
+.btn-rounded {
+    border-radius: 10em;
+}
+
+.btn-danger {
+  background-color: transparent;
+  border: 1px solid #ff4f5e;
+  color: #ff4f5e;
+}
+
+
+/*BOTTOM BTN*/
+.tabStrip {
+    position: absolute;
+    background: #f3eee9;
+    border: none;
+    padding-left: 0;
+    padding-right: 0;
+    width: 100%;
+    bottom: 0;
+}
+
+.nav-tabs {
+    border-bottom: 0px solid #ddd;
+}
+
+.tabStrip .nav-tabs >a {
+  border: 0px solid transparent;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.tabStrip ul {
+  padding-left: 0px;
+  margin-bottom: 0px;
+  list-style: none;
+}
+
+.tabStrip ul li {
+  padding: 20px;
+}
+
+
+.red-one {
+  background-color: #ff4f5e;
+}
+
+.red-one:hover, .red-two:hover, .red-three:hover {
+  opacity: 0.8;
+  transition: all ease .3s;
+}
+
+.red-two{
+  background-color:#ff3547;
+}
+
+.red-three {
+  background-color: #ff0018;
+}
+
+
+/*SECTION*/
+
+section {
+  padding: 60px 0;
+}
+
+.section-temoignage {
+  background-color: #f2f2f2;
+}
+
+.section-actualite {
+  background-color: #373942;
+}
+
+section h2 {
+  font-size: 180%;
+  word-spacing: 2px;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+
+.section-temoignage h2,
+.section-engagement h2,
+.section-icons h2 {
+  margin-bottom: 30px;
+}
+
+.section-actualite h2 {
+  margin-bottom: 60px;
+}
+
+/*Section temoignage*/
+
+
+
+.section-temoignage h2:after,
+.section-engagement h2:after,
+.section-icons h2:after {
+  display: block;
+  height: 2px;
+  background-color: #ff3547;
+  content: " ";
+  width: 100px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.section-temoignage .long-copy,
+.section-engagement .long-copy {
+  margin-bottom: 30px;
+}
+
+.long-copy {
+  line-height: 145%;
+  width: 70%;
+  margin-left: 15%;
+  text-align: center;
+  font-size: 16px;
+}
+
+/*CARDS*/
+
+.thumbnail {
+  padding: 0px;
+  border-radius: 0px;
+  box-shadow: 2px 5px 20px rgba(0,0,0,0.1);
+  border: 0px solid #ddd;
+}
+
+.caption {
+  display: flex;
+  align-items: center;
+}
+
+.caption a {
+  text-decoration: none;
+  color: #333;
+}
+
+.excerpt {
+  font-size: 14px;
+  display: block;
+  font-weight: 300;
+  margin-top: 5px;
+}
+
+
+/*Section actualité*/
+
+.section-actualite h2 {
+  color: #ff3547;
+}
+
+.carousel-caption h5 {
+  letter-spacing: 0.1em;
+}
+
+.carousel-caption p,
+.carousel-caption span {
+  font-weight: 300;
+}
+
+.carousel-caption span {
+  font-size: 12px;
+}
+
+.carousel-caption {
+    position: relative;
+    left: auto;
+    right: auto;
+}
+
+  /* override position and transform in 3.3.x */
+.carousel-inner .item.left.active {
+  transform: translateX(-33%);
+}
+.carousel-inner .item.right.active {
+  transform: translateX(33%);
+}
+
+.carousel-inner .item.next {
+  transform: translateX(33%)
+}
+.carousel-inner .item.prev {
+  transform: translateX(-33%)
+}
+
+.carousel-inner .item.right,
+.carousel-inner .item.left {
+  transform: translateX(0);
+}
+
+
+.carousel-control.left,.carousel-control.right {background-image:none;}
+
+
+/*Section Engagement*/
+  .steps {
+    margin-bottom: 60px
+  }
+
+  .steps img {
+    box-shadow: 2px 5px 20px rgba(0,0,0,0.1);
+  }
+
+  .works-step {
+    margin-bottom: 50px;
+  }
+
+  .works-step div {
+      color: #ff3547;
+      border: 2px solid #ff3547;
+      display: inline-block;
+      border-radius: 50%;
+      height: 50px;
+      width: 50px;
+      text-align: center;
+      padding: 5px;
+      float: left;
+      font-size: 150%;
+      margin-right: 25px;
+  }
+
+  .works-step p {
+    font-size: 16px;
+    font-weight: 300;
+  }
+
+
+/*Container icon*/
+.section-icons {
+  background: #f2f2f2;
+}
+
+.icons {
+  padding: 20px;
+}
+
+.icons:hover {
+  background: #fff;
+  box-shadow: 2px 5px 20px rgba(0,0,0,0.1);
+  transition: all ease 0.3s;
+}
+
+.icons a {
+  color: #333;
+  text-decoration: none;
+}
+
+.icons:hover a {
+  text-decoration: none;
+}
+
+.icons img {
+  width: 100px;
+  margin: 0 auto;
+}
+
+/*.icons .arrow {
+  display: none;
+  width: 50px;
+}
+
+.icons:hover .arrow {
+  display: block;
+}*/
+
+/*.icons .savoir {
+  color: #ff3547;
+}*/
+
+/*.icons:hover .savoir {
+  display: none;
+}*/
+
+.icons h3 {
+  font-weight: 300;
+  color: #ff3547;
+  margin: 30px 0;
+}
+
+.icons p {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: justify;
+  margin-bottom: 20px;
+}
+
+/*Footer*/
+
+footer {
+  background: #373942;
+  padding: 60px 0;
+}
+
+footer h3 {
+  text-transform: uppercase;
+  color: #ff3547;
+  font-size: 16px;
+  letter-spacing: 0.1em;
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+footer ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+footer ul li {
+  padding: 5px 0;
+  font-size: 14px;
+}
+
+footer a {
+  color: #fff;
+}
+
+footer a:hover {
+  text-decoration: none;
+  color: #ff3547;
+}
+
+footer i.fa {
+  font-size: 22px;
+  margin: 0 10px;
+}
+
+footer div:first-child {
+  margin-bottom: 20px;
+}
+
+.hacktiv-logo,
+.lille-logo {
+  display: block;
+  padding: 0;
+}
+
+.hacktiv-logo {
+  width: 60px;
+  margin: 20px 0;
+}
+
+.lille-logo {
+  width: 100px;
+  margin: 20px auto;
+}
+
+@media (max-width: 768px) {
+  .heroOne img {
+    max-width: 250px;
+  }
+  .heroTwo h1 {
+      font-size: 25px;
+  }
+  .heroTwo p {
+    font-size: 16px;
+  }
+  .nav-center {
+    flex-direction: column;
+  }
+  .nav-center>li {
+    margin: 10px 0;
+  }
+  .tabStrip ul li {
+    padding: 10px;
+    font-size: 13px;
+  }
+}
+
+@media (max-width:992px) {
+  .steps img {
+    margin: 20px 0;
+  }
+
+  .works-step div {
+    margin-bottom: 40px;
+  }
+}
+
+@media (min-width: 768px) {
+  .navbar {
+      border-radius: 0px;
+  }
+}
+
+
+@media (min-width: 936px) {
+
+  .navbar-nav li a {
+   margin-top: 40px;
+  }
+
+}
