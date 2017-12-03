@@ -235,9 +235,32 @@ section h2 {
   border: 0px solid #ddd;
 }
 
-.caption {
+.thumbnail {
+  /*animation*/
+  width: 100%;
+  margin: 0;
+  overflow: hidden;
+  background-color: #000;
+}
+
+.thumbnail > img {
+  opacity: 0.9;
+  width: 100%;
+  height: auto;
+  transform: scale(1);
+  transition: transform 0.5s;
+}
+
+.thumbnail > img:hover {
+	opacity: 1;
+	transform: scale(1.15);
+}
+
+.thumbnail .caption {
   display: flex;
   align-items: center;
+  background-color: #fff;
+  padding: 20px 0;
 }
 
 .caption a {
@@ -250,6 +273,7 @@ section h2 {
   display: block;
   font-weight: 300;
   margin-top: 5px;
+  line-height: 20px;
 }
 
 
