@@ -24,6 +24,7 @@ header {
 
 .heroOne img {
   max-width: 400px;
+  margin-bottom: 20px;
 }
 
 .heroTwo {
@@ -42,11 +43,11 @@ header {
 
 .nav-center>li {
   list-style-type: none;
-  margin: 0 10px;
+  margin: 0 30px;
 }
 
 .nav-center>li>a {
-    padding: 8px 0;
+    padding: 10px 0;
     color: #fff;
     font-size: 13px;
     letter-spacing: 0.1em;
