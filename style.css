@@ -129,8 +129,8 @@ header {
 .tabStrip .nav-tabs >a {
   border: 0px solid transparent;
   color: #fff;
-  text-transform: uppercase;
   letter-spacing: 0.1em;
+  font-size: 16px;
 }
 
 .tabStrip ul {
