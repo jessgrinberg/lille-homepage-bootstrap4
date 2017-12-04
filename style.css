@@ -333,15 +333,21 @@ section h2 {
 
 /*Section Engagement*/
   .steps {
-    margin-bottom: 60px
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(assets/DR_2013_0811_PorteQuartierBoufflers_12.jpeg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 5px 20px rgba(0,0,0,0.1);
+    padding: 40px;
   }
 
-  .steps img {
-    box-shadow: 2px 5px 20px rgba(0,0,0,0.1);
-  }
 
   .works-step {
-    margin-bottom: 50px;
+    margin: 20px 0;
+    align-self: center;
   }
 
   .works-step div {
@@ -361,6 +367,7 @@ section h2 {
   .works-step p {
     font-size: 16px;
     font-weight: 300;
+    color: #fff;
   }
 
 
