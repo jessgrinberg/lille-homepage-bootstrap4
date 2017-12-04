@@ -476,7 +476,7 @@ footer div:first-child {
 }
 
 .hacktiv-logo,
-.lille-logo {
+.footer-lille-logo {
   display: block;
   padding: 0;
 }
@@ -486,8 +486,8 @@ footer div:first-child {
   margin: 20px 0;
 }
 
-.lille-logo {
-  width: 100px;
+.footer-lille-logo {
+  width: 200px;
   margin: 20px auto;
 }
 
