@@ -238,22 +238,23 @@ section h2 {
 .thumbnail {
   /*animation*/
   width: 100%;
-  margin: 0;
   overflow: hidden;
   background-color: #000;
 }
 
-.thumbnail > img {
+.thumbnail > img,
+.item img {
   opacity: 0.9;
   width: 100%;
   height: auto;
-  transform: scale(1);
-  transition: transform 0.5s;
+  transform: scale(1.01);
+  transition: transform 2s;
 }
 
-.thumbnail > img:hover {
+.thumbnail > img:hover ,
+.item img:hover {
 	opacity: 1;
-	transform: scale(1.15);
+	transform: scale(1.06);
 }
 
 .thumbnail .caption {
@@ -300,6 +301,7 @@ section h2 {
     position: relative;
     left: auto;
     right: auto;
+    padding-top: 30px;
 }
 
   /* override position and transform in 3.3.x */
