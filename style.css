@@ -87,7 +87,7 @@ header {
     font-size: 12px;
     letter-spacing: 0.1em;
     padding: 15px 25px;
-    margin: 6px;
+    /*margin: 6px;*/
     border: 0;
     -webkit-transition: .2s ease-out;
     transition: .2s ease-out;
