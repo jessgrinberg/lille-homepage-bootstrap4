@@ -366,14 +366,19 @@ section h2 {
   background: #f2f2f2;
 }
 
+.section-icons > div {
+  width: 100%;
+  display: table;
+}
+
 .icons {
   padding: 20px;
+  transition: all ease 0.3s;
 }
 
 .icons:hover {
   background: #fff;
   box-shadow: 2px 5px 20px rgba(0,0,0,0.1);
-  transition: all ease 0.3s;
 }
 
 .icons a {
@@ -390,22 +395,23 @@ section h2 {
   margin: 0 auto;
 }
 
-/*.icons .arrow {
+.icons .arrow {
   display: none;
   width: 50px;
+  transition: all ease-in-out .2s;
 }
 
 .icons:hover .arrow {
   display: block;
-}*/
+}
 
-/*.icons .savoir {
+.icons .savoir {
   color: #ff3547;
-}*/
+}
 
-/*.icons:hover .savoir {
+.icons:hover .savoir {
   display: none;
-}*/
+}
 
 .icons h3 {
   font-weight: 300;
