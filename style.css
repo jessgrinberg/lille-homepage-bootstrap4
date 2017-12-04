@@ -475,15 +475,21 @@ footer div:first-child {
   margin-bottom: 20px;
 }
 
-.hacktiv-logo,
 .footer-lille-logo {
   display: block;
   padding: 0;
 }
 
 .hacktiv-logo {
-  width: 60px;
-  margin: 20px 0;
+  display: inline-block;
+  height: 22px;
+  margin: 0 20px 0 0;
+  vertical-align: top;
+}
+
+.hacktiv a:nth-child(1),
+.hacktiv a:nth-child(2)  {
+  vertical-align: -webkit-baseline-middle;
 }
 
 .footer-lille-logo {
