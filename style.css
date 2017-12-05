@@ -2,23 +2,34 @@ body {
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
 
 header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)), url(assets/DR_2013_0608OperaLille_14.jpeg);
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-    background-attachment: fixed;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)), url(assets/DR_2013_0608OperaLille_14.jpeg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  background-attachment: fixed;
 
-    /*flexbox*/
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    color: #fff;
+  /*flexbox*/
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  text-align: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  color: #fff;
 }
 
 .heroOne {
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
   flex-grow: 1;
 }
 
@@ -28,13 +39,19 @@ header {
 }
 
 .heroTwo {
+  -webkit-box-flex: 2;
+  -ms-flex-positive: 2;
   flex-grow: 2;
 }
 
 /*NAV*/
 
 .nav-center {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
   text-transform: uppercase;
   color: #fff;
@@ -47,19 +64,18 @@ header {
 }
 
 .nav-center>li>a {
-    padding: 10px 0;
-    color: #fff;
-    font-size: 13px;
-    letter-spacing: 0.1em;
-    border-bottom: 2px solid transparent;
-    transition: border-bottom ease-in-out 0.2s;
+  padding: 10px 0;
+  color: #fff;
+  font-size: 13px;
+  letter-spacing: 0.1em;
+  border-bottom: 2px solid transparent;
+  transition: border-bottom ease-in-out 0.2s;
 }
 
 .nav-center>li>a:hover {
   text-decoration: none;
   border-bottom: 2px solid #ff4f5e;
 }
-
 
 /*FIXED BOTTOM NAVBAR*/
 
@@ -71,7 +87,6 @@ header {
   width: 100%;
 }
 
-
 /*HERO*/
 .heroTwo h1 {
   font-weight: 400;
@@ -80,20 +95,20 @@ header {
 
 .heroTwo p {
   font-size: 20px;
-  margin: 30px auto 30px auto;
+  margin: 30px auto;
   font-weight: 300;
 }
 
 .btn {
-    font-size: 12px;
-    letter-spacing: 0.1em;
-    padding: 15px 25px;
-    border: 0;
-    -webkit-transition: .2s ease-out;
-    transition: .2s ease-out;
-    white-space: normal!important;
-    word-wrap: break-word;
-    text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 0.1em;
+  padding: 15px 25px;
+  border: 0;
+  -webkit-transition: .2s ease-out;
+  transition: .2s ease-out;
+  white-space: normal!important;
+  word-wrap: break-word;
+  text-transform: uppercase;
 }
 
 .btn:hover {
@@ -111,16 +126,15 @@ header {
   color: #ff4f5e;
 }
 
-
 /*BOTTOM BTN*/
 .tabStrip {
-    position: absolute;
-    background: #f3eee9;
-    border: none;
-    padding-left: 0;
-    padding-right: 0;
-    width: 100%;
-    bottom: 0;
+  position: absolute;
+  background: #f3eee9;
+  border: none;
+  padding-left: 0;
+  padding-right: 0;
+  width: 100%;
+  bottom: 0;
 }
 
 .nav-tabs {
@@ -143,14 +157,8 @@ header {
   padding: 20px;
 }
 
-
 .red-one {
   background-color: #ff4f5e;
-}
-
-.red-one:hover, .red-two:hover, .red-three:hover {
-  opacity: 0.8;
-  transition: all ease .3s;
 }
 
 .red-two{
@@ -161,6 +169,10 @@ header {
   background-color: #ff0018;
 }
 
+.red-one:hover, .red-two:hover, .red-three:hover {
+  opacity: 0.8;
+  transition: all ease .3s;
+}
 
 /*SECTION*/
 
@@ -225,9 +237,9 @@ section h2 {
 /*CARDS*/
 
 .img-wrapper {
-    display: inline-block; /* change the default display type to inline-block */
-    overflow: hidden;      /* hide the overflow */
-    margin-bottom: -5px;
+  display: inline-block;
+  overflow: hidden;
+  margin-bottom: -5px;
 }
 
 .item .img-wrapper> img {
@@ -303,43 +315,53 @@ section h2 {
 }
 
 /*Section Engagement*/
-  .steps {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(assets/DR_2013_0811_PorteQuartierBoufflers_12.jpeg);
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    box-shadow: 2px 5px 20px rgba(0,0,0,0.1);
-    padding: 40px;
-  }
+.steps {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(assets/DR_2013_0811_PorteQuartierBoufflers_12.jpeg);
+  background-size: cover;
+  background-position: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  box-shadow: 2px 5px 20px rgba(0,0,0,0.1);
+  padding: 40px;
+}
 
 
-  .works-step {
-    margin: 20px 0;
-    align-self: center;
-  }
+.works-step {
+  margin: 20px 0;
+  -ms-flex-item-align: center;
+   align-self: center;
+}
 
-  .works-step div {
-      color: #ff3547;
-      border: 2px solid #ff3547;
-      display: inline-block;
-      border-radius: 50%;
-      height: 50px;
-      width: 50px;
-      text-align: center;
-      padding: 5px;
-      float: left;
-      font-size: 150%;
-      margin-right: 25px;
-  }
+.works-step div {
+    color: #ff3547;
+    border: 2px solid #ff3547;
+    display: inline-block;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    padding: 5px;
+    float: left;
+    font-size: 150%;
+    margin-right: 25px;
+}
 
-  .works-step p {
-    font-size: 16px;
-    font-weight: 300;
-    color: #fff;
-  }
+.works-step p {
+  font-size: 16px;
+  font-weight: 300;
+  color: #fff;
+}
 
 
 /*Container icon*/
@@ -479,21 +501,30 @@ footer div:first-child {
   .heroOne img {
     max-width: 250px;
   }
+
   .heroTwo h1 {
       font-size: 25px;
   }
+
   .heroTwo p {
     font-size: 16px;
   }
+
   .nav-center {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
   }
+
   .nav-center>li {
     margin: 10px 0;
   }
+
   .tabStrip ul li {
     padding: 10px;
   }
+
 }
 
 @media (max-width:992px) {
@@ -511,7 +542,6 @@ footer div:first-child {
       border-radius: 0px;
   }
 }
-
 
 @media (min-width: 936px) {
 
