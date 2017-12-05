@@ -233,7 +233,7 @@ section h2 {
   border: 0px solid #ddd;
 }
 
-.thumbnail {
+.thumbnail{
   /*animation*/
   width: 100%;
   overflow: hidden;
@@ -241,18 +241,18 @@ section h2 {
 }
 
 .thumbnail > img,
-.item img {
-  opacity: 0.9;
+.item  img {
+  opacity: .8;
   width: 100%;
   height: auto;
-  transform: scale(1.01);
+  transform: scale(1.03);
   transition: transform 2s;
 }
 
-.thumbnail > img:hover ,
-.item img:hover {
+.thumbnail > img:hover,
+.item  img:hover {
 	opacity: 1;
-	transform: scale(1.06);
+	transform: scale(1.15);
 }
 
 .thumbnail .caption {
@@ -282,7 +282,8 @@ section h2 {
   color: #ff3547;
 }
 
-.carousel-caption h5 {
+
+.carousel-caption h3 {
   letter-spacing: 0.1em;
 }
 
@@ -295,20 +296,14 @@ section h2 {
   font-size: 12px;
 }
 
-.carousel-caption {
-    position: relative;
-    left: auto;
-    right: auto;
-    padding-top: 30px;
-}
 
-.carousel-img-wrapper {
-    display: inline-block; /* change the default display type to inline-block */
-    overflow: hidden;      /* hide the overflow */
-}
+/*.carousel-img-wrapper {
+    display: inline-block;
+    overflow: hidden;
+}*/
 
   /* override position and transform in 3.3.x */
-.carousel-inner .item.left.active {
+/*.carousel-inner .item.left.active {
   transform: translateX(-33%);
 }
 .carousel-inner .item.right.active {
@@ -328,7 +323,7 @@ section h2 {
 }
 
 
-.carousel-control.left,.carousel-control.right {background-image:none;}
+.carousel-control.left,.carousel-control.right {background-image:none;}*/
 
 
 /*Section Engagement*/
