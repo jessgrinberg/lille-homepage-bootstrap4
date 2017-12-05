@@ -2,6 +2,9 @@ body {
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
 
 header {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.8))), url(assets/DR_2013_0608OperaLille_14.jpeg);
+  background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)), url(assets/DR_2013_0608OperaLille_14.jpeg);
+  background-image: -o-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)), url(assets/DR_2013_0608OperaLille_14.jpeg);
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)), url(assets/DR_2013_0608OperaLille_14.jpeg);
   background-size: cover;
   background-position: center;
@@ -69,6 +72,8 @@ header {
   font-size: 13px;
   letter-spacing: 0.1em;
   border-bottom: 2px solid transparent;
+  -webkit-transition: border-bottom ease-in-out 0.2s;
+  -o-transition: border-bottom ease-in-out 0.2s;
   transition: border-bottom ease-in-out 0.2s;
 }
 
@@ -112,12 +117,13 @@ header {
 }
 
 .btn:hover {
+  -webkit-box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
   box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
   background-color: #ff4f5e;
 }
 
 .btn-rounded {
-    border-radius: 10em;
+  border-radius: 10em;
 }
 
 .btn-danger {
@@ -138,7 +144,7 @@ header {
 }
 
 .nav-tabs {
-    border-bottom: 0px solid #ddd;
+  border-bottom: 0px solid #ddd;
 }
 
 .tabStrip .nav-tabs >a {
@@ -246,13 +252,21 @@ section h2 {
   opacity: .8;
   width: 100%;
   height: auto;
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
   transform: scale(1);
+  -webkit-transition: -webkit-transform 2s;
+  transition: -webkit-transform 2s;
+  -o-transition: transform 2s;
   transition: transform 2s;
+  transition: transform 2s, -webkit-transform 2s;
 }
 
 .item .img-wrapper > img:hover {
 	opacity: 1;
-	transform: scale(1.15);
+  -webkit-transform: scale(1.15);
+  -ms-transform: scale(1.15);
+  transform: scale(1.15);
 }
 
 .temoignage-caption {
@@ -268,7 +282,6 @@ section h2 {
   margin-top: 5px;
   line-height: 20px;
 }
-
 
 /*Section actualité*/
 
@@ -316,6 +329,9 @@ section h2 {
 
 /*Section Engagement*/
 .steps {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url(assets/DR_2013_0811_PorteQuartierBoufflers_12.jpeg);
+  background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(assets/DR_2013_0811_PorteQuartierBoufflers_12.jpeg);
+  background-image: -o-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(assets/DR_2013_0811_PorteQuartierBoufflers_12.jpeg);
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(assets/DR_2013_0811_PorteQuartierBoufflers_12.jpeg);
   background-size: cover;
   background-position: center;
@@ -332,6 +348,7 @@ section h2 {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  -webkit-box-shadow: 2px 5px 20px rgba(0,0,0,0.1);
   box-shadow: 2px 5px 20px rgba(0,0,0,0.1);
   padding: 40px;
 }
@@ -340,21 +357,21 @@ section h2 {
 .works-step {
   margin: 20px 0;
   -ms-flex-item-align: center;
-   align-self: center;
+  align-self: center;
 }
 
 .works-step div {
-    color: #ff3547;
-    border: 2px solid #ff3547;
-    display: inline-block;
-    border-radius: 50%;
-    height: 50px;
-    width: 50px;
-    text-align: center;
-    padding: 5px;
-    float: left;
-    font-size: 150%;
-    margin-right: 25px;
+  color: #ff3547;
+  border: 2px solid #ff3547;
+  display: inline-block;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  padding: 5px;
+  float: left;
+  font-size: 150%;
+  margin-right: 25px;
 }
 
 .works-step p {
@@ -362,7 +379,6 @@ section h2 {
   font-weight: 300;
   color: #fff;
 }
-
 
 /*Container icon*/
 .section-icons {
@@ -376,11 +392,14 @@ section h2 {
 
 .icons {
   padding: 20px;
+  -webkit-transition: all ease 0.3s;
+  -o-transition: all ease 0.3s;
   transition: all ease 0.3s;
 }
 
 .icons:hover {
   background: #fff;
+  -webkit-box-shadow: 2px 5px 20px rgba(0,0,0,0.1);
   box-shadow: 2px 5px 20px rgba(0,0,0,0.1);
 }
 
@@ -401,6 +420,8 @@ section h2 {
 .icons .arrow {
   display: none;
   width: 50px;
+  -webkit-transition: all ease-in-out .2s;
+  -o-transition: all ease-in-out .2s;
   transition: all ease-in-out .2s;
 }
 
@@ -448,8 +469,8 @@ footer h3 {
 }
 
 footer ul {
-    list-style: none;
-    padding-left: 0;
+  list-style: none;
+  padding-left: 0;
 }
 
 footer ul li {
@@ -503,7 +524,7 @@ footer div:first-child {
   }
 
   .heroTwo h1 {
-      font-size: 25px;
+    font-size: 25px;
   }
 
   .heroTwo p {
