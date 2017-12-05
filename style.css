@@ -302,29 +302,13 @@ section h2 {
   font-size: 12px;
 }
 
-.carousel-control 			 { width:  4%; }
-.carousel-control.left,.carousel-control.right {margin-left:15px;background-image:none;}
-
-@media (max-width: 767px) {
-	.carousel-inner .active.left { left: -100%; }
-	.carousel-inner .next        { left:  100%; }
-	.carousel-inner .prev		 { left: -100%; }
-	.active > div { display:none; }
-	.active > div:first-child { display:block; }
-
+.carousel-control {
+  width:  4%;
 }
-@media (min-width: 767px) and (max-width: 992px ) {
-	.carousel-inner .active.left { left: -50%; }
-	.carousel-inner .next        { left:  50%; }
-	.carousel-inner .prev		 { left: -50%; }
-	.active > div { display:none; }
-	.active > div:first-child { display:block; }
-	.active > div:first-child + div { display:block; }
-}
-@media (min-width: 767px ) {
-	.carousel-inner .active.left { left: -25%; }
-	.carousel-inner .next        { left:  25%; }
-	.carousel-inner .prev		 { left: -25%; }
+
+.carousel-control.left,.carousel-control.right {
+  margin-left:15px;
+  background-image:none;
 }
 
 /*Section Engagement*/
@@ -548,6 +532,30 @@ footer div:first-child {
 
 }
 
+@media (max-width: 767px) {
+	.carousel-inner .active.left { left: -100%; }
+	.carousel-inner .next        { left:  100%; }
+	.carousel-inner .prev		 { left: -100%; }
+	.active > div { display:none; }
+	.active > div:first-child { display:block; }
+
+}
+
+@media (min-width: 767px) and (max-width: 992px ) {
+	.carousel-inner .active.left { left: -50%; }
+	.carousel-inner .next        { left:  50%; }
+	.carousel-inner .prev		 { left: -50%; }
+	.active > div { display:none; }
+	.active > div:first-child { display:block; }
+	.active > div:first-child + div { display:block; }
+}
+
+@media (min-width: 767px ) {
+	.carousel-inner .active.left { left: -25%; }
+	.carousel-inner .next        { left:  25%; }
+	.carousel-inner .prev		 { left: -25%; }
+}
+
 @media (max-width:992px) {
   .steps img {
     margin: 20px 0;
@@ -556,18 +564,4 @@ footer div:first-child {
   .works-step div {
     margin-bottom: 40px;
   }
-}
-
-@media (min-width: 768px) {
-  .navbar {
-      border-radius: 0px;
-  }
-}
-
-@media (min-width: 936px) {
-
-  .navbar-nav li a {
-   margin-top: 40px;
-  }
-
 }
