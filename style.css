@@ -307,7 +307,7 @@ section h2 {
 }
 
 .carousel-control.left,.carousel-control.right {
-  margin-left:15px;
+  /*margin-left:15px;*/
   background-image:none;
 }
 
@@ -532,7 +532,7 @@ footer div:first-child {
 
 }
 
-@media (max-width: 767px) {
+/*@media (max-width: 767px) {
 	.carousel-inner .active.left { left: -100%; }
 	.carousel-inner .next        { left:  100%; }
 	.carousel-inner .prev		 { left: -100%; }
@@ -554,7 +554,7 @@ footer div:first-child {
 	.carousel-inner .active.left { left: -25%; }
 	.carousel-inner .next        { left:  25%; }
 	.carousel-inner .prev		 { left: -25%; }
-}
+}*/
 
 @media (max-width:992px) {
   .steps img {
@@ -563,5 +563,60 @@ footer div:first-child {
 
   .works-step div {
     margin-bottom: 40px;
+  }
+}
+
+
+
+/*CAROUSEL TEMOIGNAGE*/
+
+.carousel-showthreemoveone .carousel-control {
+  width: 4%;
+  background-image: none;
+}
+
+.carousel-showthreemoveone .cloneditem-1,
+.carousel-showthreemoveone .cloneditem-2{
+  display: none;
+}
+
+@media all and (min-width: 992px) {
+  .carousel-showthreemoveone .carousel-inner > .active.left,
+  .carousel-showthreemoveone .carousel-inner > .prev {
+    left: -33.333%;
+  }
+  .carousel-showthreemoveone .carousel-inner > .active.right,
+  .carousel-showthreemoveone .carousel-inner > .next {
+    left: 33.333%;
+  }
+  .carousel-showthreemoveone .carousel-inner > .left,
+  .carousel-showthreemoveone .carousel-inner > .prev.right,
+  .carousel-showthreemoveone .carousel-inner > .active {
+    left: 0;
+  }
+  .carousel-showthreemoveone .carousel-inner .cloneditem-1,
+  .carousel-showthreemoveone .carousel-inner .cloneditem-2 {
+    display: block;
+  }
+}
+@media all and (min-width: 992px) and (transform-3d), all and (min-width: 992px) and (-webkit-transform-3d) {
+  .carousel-showthreemoveone .carousel-inner > .item.active.right,
+  .carousel-showthreemoveone .carousel-inner > .item.next {
+    -webkit-transform: translate3d(33.333%, 0, 0);
+            transform: translate3d(33.333%, 0, 0);
+    left: 0;
+  }
+  .carousel-showthreemoveone .carousel-inner > .item.active.left,
+  .carousel-showthreemoveone .carousel-inner > .item.prev {
+    -webkit-transform: translate3d(-33.333%, 0, 0);
+            transform: translate3d(-33.333%, 0, 0);
+    left: 0;
+  }
+  .carousel-showthreemoveone .carousel-inner > .item.left,
+  .carousel-showthreemoveone .carousel-inner > .item.prev.right,
+  .carousel-showthreemoveone .carousel-inner > .item.active {
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+    left: 0;
   }
 }
