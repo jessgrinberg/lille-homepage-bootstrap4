@@ -320,12 +320,13 @@ section h2 {
 
 /*Section Engagement*/
 .steps {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url(assets/DR_2013_0811_PorteQuartierBoufflers_12.jpeg);
-  background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(assets/DR_2013_0811_PorteQuartierBoufflers_12.jpeg);
-  background-image: -o-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(assets/DR_2013_0811_PorteQuartierBoufflers_12.jpeg);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(assets/DR_2013_0811_PorteQuartierBoufflers_12.jpeg);
+  /*background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))),
+    url("https://placeholdit.co//i/1000x1000");
+  background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://placeholdit.co//i/1000x1000");
+  background-image: -o-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://placeholdit.co//i/1000x1000");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://placeholdit.co//i/1000x1000");
   background-size: cover;
-  background-position: center;
+  background-position: center;*/
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -339,19 +340,15 @@ section h2 {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  -webkit-box-shadow: 2px 5px 20px rgba(0,0,0,0.1);
-  box-shadow: 2px 5px 20px rgba(0,0,0,0.1);
   padding: 40px;
 }
 
 
 .works-step {
-  margin: 20px 0;
-  -ms-flex-item-align: center;
-  align-self: center;
+  margin-bottom: 40px;
 }
 
-.works-step div {
+.works-step  {
   color: #ff3547;
   border: 2px solid #ff3547;
   display: inline-block;
@@ -362,7 +359,6 @@ section h2 {
   padding: 5px;
   float: left;
   font-size: 150%;
-  margin-right: 25px;
 }
 
 .works-step p {
@@ -564,13 +560,11 @@ footer div:first-child {
 }*/
 
 @media (max-width:992px) {
-  .steps img {
-    margin: 20px 0;
+
+  .steps {
+    padding: 0px;
   }
 
-  .works-step div {
-    margin-bottom: 40px;
-  }
 }
 
 
