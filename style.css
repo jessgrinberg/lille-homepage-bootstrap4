@@ -158,6 +158,18 @@ header {
   border: 0px solid transparent;
   color: #fff;
   letter-spacing: 0.1em;
+  -webkit-box-flex: 1;
+     -ms-flex: 1;
+         flex: 1;
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+}
+
+.tabStrip .nav-tabs >a > li {
+  -webkit-box-flex: 1;
+     -ms-flex: 1;
+         flex: 1;
 }
 
 .tabStrip ul {
