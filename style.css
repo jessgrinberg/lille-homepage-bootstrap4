@@ -289,7 +289,7 @@ section h2 {
   transform: scale(1.15);
 }
 
-.temoignage-caption {
+/*.temoignage-caption {
   text-decoration: none;
   color: #333;
   background: #fff;
@@ -299,7 +299,7 @@ section h2 {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-}
+}*/
 
 .excerpt {
   font-size: 14px;
@@ -589,7 +589,7 @@ footer div:first-child {
 
 /*CAROUSEL TEMOIGNAGE*/
 
-.carousel-showthreemoveone .carousel-control {
+/*.carousel-showthreemoveone .carousel-control {
   width: 4%;
   background-image: none;
 }
@@ -638,4 +638,26 @@ footer div:first-child {
             transform: translate3d(0, 0, 0);
     left: 0;
   }
+}*/
+
+/*.recipeCarousel .carousel-inner .carousel-item.active,
+.recipeCarousel .carousel-inner .carousel-item-next,
+.recipeCarousel .carousel-inner .carousel-item-prev {
+  display: flex;
 }
+
+.recipeCarousel .carousel-inner .carousel-item-right.active,
+.recipeCarousel .carousel-inner .carousel-item-next {
+  transform: translateX(33.33%);
+}
+
+.recipeCarousel .carousel-inner .carousel-item-left.active,
+.recipeCarousel .carousel-inner .carousel-item-prev {
+  transform: translateX(-33.33%);
+}
+
+.recipeCarousel .carousel-inner .carousel-item-right,
+.recipeCarousel .carousel-inner .carousel-item-left{
+  transform: translateX(0);
+
+}*/
