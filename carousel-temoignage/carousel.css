@@ -84,3 +84,23 @@
   min-width: 30px;
   max-width: 50px;
 }
+
+/*section temoignage*/
+
+.section-temoignage h2 {
+  margin-bottom: 30px;
+}
+
+.section-temoignage h2:after {
+  display: block;
+  height: 2px;
+  background-color: #ff3547;
+  content: " ";
+  width: 100px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.section-temoignage .long-copy {
+    margin-bottom: 30px;
+}
