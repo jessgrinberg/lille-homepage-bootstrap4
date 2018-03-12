@@ -1,0 +1,98 @@
+/*Section engagement*/
+
+.section-engagement h2 {
+  margin-bottom: 30px;
+}
+
+.section-engagement h2:after {
+  display: block;
+  height: 2px;
+  background-color: #ff3547;
+  content: " ";
+  width: 100px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+
+.section-engagement .long-copy {
+  margin-bottom: 30px;
+}
+
+/*image background*/
+.steps {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(https://d16r7paebwktd6.cloudfront.net/production/artworks/artworks/a69702f1c3b004de08b793f2642fa263e968f276.jpg?1518170147);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url(https://d16r7paebwktd6.cloudfront.net/production/artworks/artworks/a69702f1c3b004de08b793f2642fa263e968f276.jpg?1518170147);
+  background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(https://d16r7paebwktd6.cloudfront.net/production/artworks/artworks/a69702f1c3b004de08b793f2642fa263e968f276.jpg?1518170147);
+  background-image: -o-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(https://d16r7paebwktd6.cloudfront.net/production/artworks/artworks/a69702f1c3b004de08b793f2642fa263e968f276.jpg?1518170147);
+  background-size: cover;
+  background-position: center;
+
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 40px;
+}
+
+.works-step {
+    /*margin: 20px 0;*/
+    -ms-flex-item-align: left;
+    align-self: left;
+}
+
+/*div inside image*/
+
+.works-step > div {
+  color: #ff3547;
+  border: 2px solid #ff3547;
+  display: inline-block;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  padding: 5px;
+  float: left;
+  font-size: 150%;
+  margin-right: 25px;
+}
+
+.works-step p {
+  font-size: 16px;
+  font-weight: 300;
+  color: #fff;
+}
+
+@media (max-width: 992px) {
+  .works-step > div {
+    margin-bottom: 5%;
+  }
+}
+
+@media (max-width: 768px) {
+  .works-step > div {
+    margin-bottom: 10%;
+  }
+}
+
+@media (max-width: 525px) {
+  .works-step > div {
+    margin-bottom: 15%;
+  }
+}
+
+
+@media (max-width: 435px) {
+  .works-step > div {
+    margin-bottom: 25%;
+  }
+}
