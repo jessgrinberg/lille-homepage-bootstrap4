@@ -1,0 +1,177 @@
+header {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.8))), url(../assets/DR_2013_0608OperaLille_14.jpeg);
+  background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)), url(../assets/DR_2013_0608OperaLille_14.jpeg);
+  background-image: -o-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)), url(../assets/DR_2013_0608OperaLille_14.jpeg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)), url(../assets/DR_2013_0608OperaLille_14.jpeg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  background-attachment: fixed;
+  color: #fff;
+}
+
+.heroOne img {
+  max-width: 400px;
+}
+
+/*NAV*/
+
+.nav-center {
+  color: #fff;
+}
+
+.navbar-dark .navbar-nav .nav-link,
+.navbar-dark .navbar-nav .nav-link:focus,
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #fff;
+}
+
+.navbar-dark .navbar-toggler {
+  border-color: #fff;
+  padding: 10px 15px;
+}
+
+.navbar-toggler .menu {
+  font-family: Lato;
+  color: #fff;
+}
+
+.nav-center>li {
+  list-style-type: none;
+}
+
+.nav-center>li>a {
+  color: #fff;
+  font-size: 12px;
+  letter-spacing: 0.1em;
+  text-decoration: none;
+}
+
+.nav-center>li {
+  margin: 10px;
+  padding: 0 0 5px 0;
+  border-bottom: 2px solid #ff4f5e;
+  -webkit-transition: border-bottom ease-in-out 0.s;
+  -o-transition: border-bottom ease-in-out 0.2s;
+  transition: border-bottom ease-in-out 0.2s;
+}
+
+.nav-center>li:hover {
+  text-decoration: none;
+  border-bottom: 2px solid #fff;
+}
+
+
+/*FIXED BOTTOM NAVBAR*/
+
+.fixed-me{
+  opacity: .9;
+  position: fixed;
+  top:0;
+  z-index:888;
+  width: 100%;
+}
+
+/*HERO*/
+.heroTwo h1 {
+  font-weight: 400;
+  font-size: 35px;
+}
+
+.heroTwo p {
+  font-size: 20px;
+  margin: 30px auto;
+  font-weight: 300;
+}
+
+/*BOTTOM BTN*/
+.tabStrip {
+  position: absolute;
+  background: #f3eee9;
+  border: none;
+  padding-left: 0;
+  padding-right: 0;
+  width: 100%;
+  bottom: 0;
+}
+
+.nav-tabs {
+  border-bottom: 0px solid #ddd;
+}
+
+.tabStrip .nav-tabs > a {
+  border: 0px solid transparent;
+  color: #fff;
+  letter-spacing: 0.1em;
+  -webkit-box-flex: 1;
+     -ms-flex: 1;
+         flex: 1;
+}
+
+.tabStrip .nav-tabs > a:hover {
+  text-decoration: none;
+}
+
+.tabStrip .nav-tabs >a > li {
+  -webkit-box-flex: 1;
+     -ms-flex: 1;
+         flex: 1;
+}
+
+.tabStrip ul {
+  padding-left: 0px;
+  margin-bottom: 0px;
+  list-style: none;
+}
+
+.red-one {
+  background-color: #ff4f5e;
+}
+
+.red-two{
+  background-color:#ff3547;
+}
+
+.red-three {
+  background-color: #ff0018;
+
+}
+
+.red-one:hover, .red-two:hover, .red-three:hover {
+  transition: background-color ease .3s;
+}
+
+.red-one:hover {
+  background-color: #F24B59;
+}
+
+ .red-two:hover {
+  background-color: #ED3142;
+}
+
+.red-three:hover {
+  background-color: #C90013;
+}
+
+
+
+@media (max-width: 768px) {
+  .heroOne img {
+    max-width: 250px;
+  }
+
+  .heroTwo h1 {
+    font-size: 25px;
+  }
+
+  .heroTwo p {
+    font-size: 16px;
+  }
+
+}
+
+@media (max-width: 992px) {
+  .nav-center>li {
+    margin: 20px auto 0;
+  }
+}

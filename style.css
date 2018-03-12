@@ -7,17 +7,17 @@ a:hover {
 
 
 header {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.8))), url(assets/DR_2013_0608OperaLille_14.jpeg);
+  /*background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.8))), url(assets/DR_2013_0608OperaLille_14.jpeg);
   background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)), url(assets/DR_2013_0608OperaLille_14.jpeg);
   background-image: -o-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)), url(assets/DR_2013_0608OperaLille_14.jpeg);
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)), url(assets/DR_2013_0608OperaLille_14.jpeg);
   background-size: cover;
   background-position: center;
   height: 100vh;
-  background-attachment: fixed;
+  background-attachment: fixed;*/
 
   /*flexbox*/
-  display: -webkit-box;
+  /*display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
@@ -31,11 +31,11 @@ header {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
-  flex-direction: column;
+  flex-direction: column;*/
   color: #fff;
 }
 
-.heroOne {
+/*.heroOne {
   -webkit-box-flex: 1;
   -ms-flex-positive: 1;
   flex-grow: 1;
@@ -51,10 +51,10 @@ header {
   -ms-flex-positive: 2;
   flex-grow: 2;
   margin: 0 auto;
-}
+}*/
 
 /*NAV*/
-
+/*
 .nav-center {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -69,11 +69,9 @@ header {
 
 .nav-center>li {
   list-style-type: none;
-  /*margin: 0 30px;*/
 }
 
 .nav-center>li>a {
-  /*padding: 10px 0;*/
   color: #fff;
   font-size: 12px;
   letter-spacing: 0.1em;
@@ -93,20 +91,20 @@ header {
 .nav-center>li:hover {
   text-decoration: none;
   border-bottom: 2px solid #fff;
-}
+}*/
 
 /*FIXED BOTTOM NAVBAR*/
 
-.fixed-me{
+/*.fixed-me{
   opacity: .9;
   position: fixed;
   top:0;
   z-index:888;
   width: 100%;
-}
+}*/
 
 /*HERO*/
-.heroTwo h1 {
+/*.heroTwo h1 {
   font-weight: 400;
   font-size: 35px;
 }
@@ -115,7 +113,7 @@ header {
   font-size: 20px;
   margin: 30px auto;
   font-weight: 300;
-}
+}*/
 
 .btn {
   font-size: 12px;
@@ -146,7 +144,7 @@ header {
 }
 
 /*BOTTOM BTN*/
-.tabStrip {
+/*.tabStrip {
   position: absolute;
   background: #f3eee9;
   border: none;
@@ -201,9 +199,8 @@ header {
 }
 
 .red-one:hover, .red-two:hover, .red-three:hover {
-  opacity: 0.8;
   transition: all ease .3s;
-}
+}*/
 
 /*SECTION*/
 
@@ -367,7 +364,7 @@ footer div:first-child {
 
 
 @media (max-width: 768px) {
-  .heroOne img {
+  /*.heroOne img {
     max-width: 250px;
   }
 
@@ -392,7 +389,7 @@ footer div:first-child {
 
   .tabStrip ul li {
     padding: 10px;
-  }
+  }*/
 
 }
 
