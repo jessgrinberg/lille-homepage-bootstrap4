@@ -1,0 +1,121 @@
+.section-icons {
+  background: #f2f2f2;
+}
+
+.section-icons h2 {
+  margin-bottom: 30px;
+}
+
+.section-icons h2:after {
+  display: block;
+  height: 2px;
+  background-color: #ff3547;
+  content: " ";
+  width: 100px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+/*icons blocs*/
+.section-icons > div {
+  width: 100%;
+  display: table;
+}
+
+.icons {
+  padding: 20px;
+  -webkit-transition: all ease 0.3s;
+  -o-transition: all ease 0.3s;
+  transition: all ease 0.3s;
+}
+
+.icons:hover {
+  background: #fff;
+  -webkit-box-shadow: 2px 5px 20px rgba(0,0,0,0.1);
+  box-shadow: 2px 5px 20px rgba(0,0,0,0.1);
+}
+
+.icons a {
+  color: #333;
+  text-decoration: none;
+}
+
+.icons:hover a {
+  text-decoration: none;
+}
+
+
+/*picto*/
+
+.icons img {
+  width: 100px;
+  margin: 0 auto;
+}
+
+
+/*title sous-picto*/
+
+.icons h3 {
+  font-weight: 300;
+  color: #ff3547;
+  margin: 30px 0;
+}
+
+
+/*paragraph sous-picto*/
+
+.icons p {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+
+
+/*arrow before hover not displayed*/
+.icons .arrow {
+  display: none;
+  width: 50px;
+  -webkit-transition: all ease-in-out .2s;
+  -o-transition: all ease-in-out .2s;
+  transition: all ease-in-out .2s;
+}
+
+/*arrow on hover displayed*/
+
+.icons:hover .arrow {
+  display: block;
+}
+
+/*
+.icons .savoir {
+  color: #ff3547;
+}*/
+
+/* hide en savoir plus btn on hover*/
+.icons:hover .savoir {
+  display: none;
+}
+
+@media (min-width:768px) {
+  .icons p {
+    min-height: 375px;
+  }
+}
+
+@media (min-width:992px) {
+  .icons p {
+    min-height: 250px;
+  }
+}
+
+@media (min-width:1200px) {
+  .icons h3 {
+    min-height: 70px;
+  }
+  .icons p {
+    min-height: 225px;
+  }
+}

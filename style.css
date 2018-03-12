@@ -220,8 +220,7 @@ section h2 {
 }
 
 
-.section-engagement h2,
-.section-icons h2 {
+.section-engagement h2 {
   margin-bottom: 30px;
 }
 
@@ -231,8 +230,7 @@ section h2 {
 
 /*Section temoignage*/
 
-.section-engagement h2:after,
-.section-icons h2:after {
+.section-engagement h2:after {
   display: block;
   height: 2px;
   background-color: #ff3547;
@@ -352,76 +350,6 @@ section h2 {
   color: #fff;
 }
 
-/*Container icon*/
-.section-icons {
-  background: #f2f2f2;
-}
-
-.section-icons > div {
-  width: 100%;
-  display: table;
-}
-
-.icons {
-  padding: 20px;
-  -webkit-transition: all ease 0.3s;
-  -o-transition: all ease 0.3s;
-  transition: all ease 0.3s;
-}
-
-.icons:hover {
-  background: #fff;
-  -webkit-box-shadow: 2px 5px 20px rgba(0,0,0,0.1);
-  box-shadow: 2px 5px 20px rgba(0,0,0,0.1);
-}
-
-.icons a {
-  color: #333;
-  text-decoration: none;
-}
-
-.icons:hover a {
-  text-decoration: none;
-}
-
-.icons img {
-  width: 100px;
-  margin: 0 auto;
-}
-
-.icons .arrow {
-  display: none;
-  width: 50px;
-  -webkit-transition: all ease-in-out .2s;
-  -o-transition: all ease-in-out .2s;
-  transition: all ease-in-out .2s;
-}
-
-.icons:hover .arrow {
-  display: block;
-}
-
-.icons .savoir {
-  color: #ff3547;
-}
-
-.icons:hover .savoir {
-  display: none;
-}
-
-.icons h3 {
-  font-weight: 300;
-  color: #ff3547;
-  margin: 30px 0;
-}
-
-.icons p {
-  font-weight: 300;
-  font-size: 16px;
-  line-height: 26px;
-  text-align: justify;
-  margin-bottom: 20px;
-}
 
 /*Footer*/
 
