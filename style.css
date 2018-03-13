@@ -241,7 +241,7 @@ section h2 {
 
 /*CARDS*/
 
-.img-wrapper {
+/*.img-wrapper {
   display: inline-block;
   overflow: hidden;
   margin-bottom: -5px;
@@ -266,15 +266,15 @@ section h2 {
   -webkit-transform: scale(1.15);
   -ms-transform: scale(1.15);
   transform: scale(1.15);
-}
+}*/
 
 /*Section actualité*/
-
+/*
 .section-actualite h2 {
   color: #ff3547;
-}
+}*/
 
-.carousel-caption h3 {
+/*.carousel-caption h3 {
   letter-spacing: 0.1em;
 }
 
@@ -293,7 +293,7 @@ section h2 {
 
 .carousel-control.left,.carousel-control.right {
   background-image:none;
-}
+}*/
 
 /*Footer*/
 

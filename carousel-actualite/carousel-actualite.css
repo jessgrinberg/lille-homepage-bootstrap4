@@ -1,0 +1,70 @@
+.section-actualite h2 {
+  color: #ff3547;
+}
+
+.carousel-caption h3 {
+  letter-spacing: 0.1em;
+}
+
+.carousel-caption p,
+.carousel-caption span {
+  font-weight: 300;
+}
+
+.carousel-caption span {
+  font-size: 12px;
+}
+
+.carousel-control {
+  width:  4%;
+}
+
+.carousel .img-wrapper {
+  display: inline-block;
+  overflow: hidden;
+  margin-bottom: -5px;
+}
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    background-color: #000;
+    opacity: .5;
+}
+
+.carousel-item .img-wrapper> img {
+  width: 100%;
+  height: auto;
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: -webkit-transform 2s;
+  transition: -webkit-transform 2s;
+  -o-transition: transform 2s;
+  transition: transform 2s;
+  transition: transform 2s, -webkit-transform 2s;
+}
+
+.carousel-item:hover .img-wrapper > img{
+  -webkit-transform: scale(1.15);
+  -ms-transform: scale(1.15);
+  transform: scale(1.15);
+}
+
+.carousel-item:hover .overlay {
+  opacity: .3;
+  transition: all ease .5s;
+}
+
+@media (max-width: 768px) {
+  .carousel-caption p {
+    font-size: 14px;
+  }
+
+  .carousel-caption h3 {
+    font-size: 1.25rem;
+  }
+
+}
