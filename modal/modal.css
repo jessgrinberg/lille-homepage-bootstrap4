@@ -6,14 +6,22 @@ a:hover {
   text-decoration: none;
 }
 
+/*Modal*/
+
 .modal-header  {
   background: #f7f7f7;
 }
 
-.modal h5 {
+.modal h3 {
   font-family: 'Lato' !important;
   font-weight: 700;
   color: #ff3547;
+}
+
+.modal h5 {
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+  font-weight: 300;
 }
 
 /*BTN*/
@@ -67,13 +75,24 @@ a:hover {
 
 
 /*Input*/
-
 .rounded-input {
   border-radius: 50px;
 }
 
 input.required {
   border: 1px solid #ff3547;
+}
+
+/*Select*/
+.rounded-select {
+  overflow: hidden;
+  border: 1px solid #ced4da;
+  border-radius: 50px;
+}
+
+.rounded-select > select {
+  border: 0px;
+  outline: none;
 }
 
 /*MODAL CLOSE*/
