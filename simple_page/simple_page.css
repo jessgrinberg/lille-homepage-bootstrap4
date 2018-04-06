@@ -1,0 +1,69 @@
+/*GENERAL*/
+body {
+  font-family: 'Lato';
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.btn-link:hover,
+.btn-link:active,
+.btn-link:focus {
+  text-decoration: none;
+}
+
+.text-red {
+  color: #ff3547;
+}
+
+.text-red:hover {
+  color: #ff4f5e;
+}
+
+.text-red {
+  color: #ff3547;
+}
+
+.text-red:hover {
+  color: #ff4f5e;
+}
+
+/*SECTION*/
+
+section.section-title {
+  padding: 60px 0;
+}
+
+section h2 {
+  margin-bottom: 30px;
+  font-size: 180%;
+  word-spacing: 2px;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+
+section h2:after {
+  display: block;
+  height: 2px;
+  background-color: #ff3547;
+  content: " ";
+  width: 100px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+section .long-copy {
+  margin-bottom: 30px;
+}
+
+
+/*SIMPLE PAGE TITLE*/
+
+.simple_page h5 {
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+  font-weight: 500;
+}
