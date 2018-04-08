@@ -24,6 +24,11 @@ a:hover {
   font-weight: 300;
 }
 
+.form-group.required .input:after {
+   content:"*";
+   color:red;
+}
+
 /*BTN*/
 
 .btn-hacktiv {
