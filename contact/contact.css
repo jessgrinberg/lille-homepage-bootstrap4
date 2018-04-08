@@ -1,0 +1,44 @@
+/*GENERAL*/
+body {
+  font-family: 'Lato';
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.btn-link:hover,
+.btn-link:active,
+.btn-link:focus {
+  text-decoration: none;
+}
+
+.text-red {
+  color: #ff3547;
+}
+
+.text-red:hover {
+  color: #ff4f5e;
+}
+
+.text-red {
+  color: #ff3547;
+}
+
+.text-red:hover {
+  color: #ff4f5e;
+}
+
+/*Header*/
+
+header#contact {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.8))), url(../assets/DR_2013_0608OperaLille_14.jpeg);
+  background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)), url(../assets/DR_2013_0608OperaLille_14.jpeg);
+  background-image: -o-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)), url(../assets/DR_2013_0608OperaLille_14.jpeg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)), url(../assets/DR_2013_0608OperaLille_14.jpeg);
+  background-size: cover;
+  background-position: bottom;
+  height: 60vh;
+  background-attachment: fixed;
+  color: #fff;
+}
