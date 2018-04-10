@@ -31,7 +31,8 @@ header {
 #headerNav .navbar-nav .active> .nav-link,
 #headerNav .navbar-nav .nav-link.active,
 #headerNav .navbar-nav .nav-link.show,
-#headerNav .navbar-nav .show>.nav-link {
+#headerNav .navbar-nav .show>.nav-link,
+#headerNav .navbar-nav .active> .nav-link:hover {
   color: #ff4f5e;
   border-bottom: 2px solid #ff4f5e;
 }
