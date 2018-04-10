@@ -1,0 +1,49 @@
+header {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.8))), url(../assets/DR_2013_0608OperaLille_14.jpeg);
+  background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)), url(../assets/DR_2013_0608OperaLille_14.jpeg);
+  background-image: -o-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)), url(../assets/DR_2013_0608OperaLille_14.jpeg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)), url(../assets/DR_2013_0608OperaLille_14.jpeg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  background-attachment: fixed;
+  color: #fff;
+}
+
+.heroOne img {
+  max-width: 400px;
+}
+
+/*NAV LINKS*/
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #FFF;
+  font-family: 'Lato';
+  border-bottom: 2px solid #FFF;
+  letter-spacing: 0.1em;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.navbar-dark .navbar-nav .active> .nav-link,
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link.show,
+.navbar-dark .navbar-nav .show>.nav-link {
+  color: #ff4f5e;
+  border-bottom: 2px solid #ff4f5e;
+}
+
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+  color: rgba(255,79,94,.75);
+  border-bottom: 2px solid rgba(255,79,94,.75);
+}
+
+/*MOBILE TOGGLER*/
+.navbar-toggler:focus {
+  outline: 0;
+}
+
+.navbar-toggler .menu {
+  font-family: Lato;
+  color: #FFF;
+}
