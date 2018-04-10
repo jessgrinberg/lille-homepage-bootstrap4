@@ -2,6 +2,11 @@ body {
   font-family: 'Lato';
 }
 
+/*COLORS*/
+.text-red {
+  color: #ff3547;
+}
+
 header {
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.8))), url(../assets/DR_2013_0608OperaLille_14.jpeg);
   background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)), url(../assets/DR_2013_0608OperaLille_14.jpeg);
@@ -16,6 +21,16 @@ header {
 
 .heroOne img {
   max-width: 400px;
+}
+
+.heroTwo {
+  position: absolute;
+  bottom: -50px;
+}
+
+.heroTwo img {
+  border: 1px solid #ff4f5e;
+  border-radius: 10px;
 }
 
 /*NAV LINKS*/
