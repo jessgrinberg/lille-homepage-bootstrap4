@@ -1,3 +1,7 @@
+body {
+  font-family: 'Lato';
+}
+
 header {
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.8))), url(../assets/DR_2013_0608OperaLille_14.jpeg);
   background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)), url(../assets/DR_2013_0608OperaLille_14.jpeg);
@@ -5,7 +9,7 @@ header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)), url(../assets/DR_2013_0608OperaLille_14.jpeg);
   background-size: cover;
   background-position: center;
-  height: 100vh;
+  height: calc(100vh - 40px);
   background-attachment: fixed;
   color: #fff;
 }
@@ -16,34 +20,53 @@ header {
 
 /*NAV LINKS*/
 
-.navbar-dark .navbar-nav .nav-link {
-  color: #FFF;
-  font-family: 'Lato';
-  border-bottom: 2px solid #FFF;
+#headerNav .navbar-nav .nav-link {
+  color: rgba(255, 255, 255, .75);
+  border-bottom: 2px solid rgba(255, 255, 255, .75);
   letter-spacing: 0.1em;
   text-decoration: none;
   margin: 0 10px;
 }
 
-.navbar-dark .navbar-nav .active> .nav-link,
-.navbar-dark .navbar-nav .nav-link.active,
-.navbar-dark .navbar-nav .nav-link.show,
-.navbar-dark .navbar-nav .show>.nav-link {
+#headerNav .navbar-nav .active> .nav-link,
+#headerNav .navbar-nav .nav-link.active,
+#headerNav .navbar-nav .nav-link.show,
+#headerNav .navbar-nav .show>.nav-link {
   color: #ff4f5e;
   border-bottom: 2px solid #ff4f5e;
 }
 
-.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
-  color: rgba(255,79,94,.75);
-  border-bottom: 2px solid rgba(255,79,94,.75);
+#headerNav .navbar-nav .nav-link:focus,
+#headerNav .navbar-nav .nav-link:hover {
+  color: rgba(255, 255, 255, 1);
+  border-bottom: 2px solid rgba(255, 255, 255, 1);
 }
 
 /*MOBILE TOGGLER*/
-.navbar-toggler:focus {
+#headerNav .navbar-toggler:focus {
   outline: 0;
 }
 
-.navbar-toggler .menu {
-  font-family: Lato;
+#headerNav .navbar-toggler .menu {
   color: #FFF;
+}
+
+
+/*TOP NAV*/
+
+#topNav .nav-link {
+  font-size: 13px;
+  color: rgba(255, 255, 255, .75);
+}
+
+#topNav .nav-link:hover,
+#topNav .nav-link:focus {
+  font-size: 13px;
+  color: rgba(255, 255, 255, 1);
+}
+
+@media (min-width: 992px) {
+  #topNav.navbar {
+    max-height: 40px;
+  }
 }
