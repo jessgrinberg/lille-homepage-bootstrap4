@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <!-- <link rel="stylesheet" href="../style.css"> -->
     <link rel="stylesheet" href="../contact/contact.css">
   </head>
   <body>
@@ -23,19 +22,66 @@
     </header>
 
 
-    <!-- <section class="simple_page">
+    <section class="section-title">
       <div class="container">
         <div class="row">
-          div
+          <div class="col">
+            <h2 class="mx-auto">Laisser nous un message</h2>
+            <p class="long-copy text-center">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Tenetur recusandae eos animi facere numquam sequi.
+            </p>
+          </div>
         </div>
       </div>
-    </section> -->
+    </section>
+
+    <section class="form">
+      <div class="col-xs-12 col-sm-6 offset-sm-3 col-md-4 offset-md-4">
+        <form class="mx-auto" id="formContact">
+          <div class="form-group required">
+            <input type="text" class="form-control required rounded-input" id="inputFirstName" aria-describedby="firstName" placeholder="Votre prénom" required>
+            <div class="invalid-feedback">Veuillez remplir le champ obligatoire</div>
+            <div class="valid-feedback">Champ rempli correctement</div>
+          </div>
+          <div class="form-group required">
+            <input type="text" class="form-control required rounded-input" id="inputLastName" aria-describedby="lastName" placeholder="Votre nom" required>
+            <div class="invalid-feedback">Veuillez remplir le champ obligatoire</div>
+            <div class="valid-feedback">Champ rempli correctement</div>
+          </div>
+          <div class="form-group required">
+            <input type="email" class="form-control required rounded-input" id="inputEmail" aria-describedby="emailHelp" placeholder="Votre email" required>
+            <div class="invalid-feedback">Veuillez remplir le champ obligatoire</div>
+            <div class="valid-feedback">Champ rempli correctement</div>
+          </div>
+          <div class="form-group">
+            <input type="text" class="form-control rounded-input" id="inputAge" aria-describedby="age" placeholder="Votre âge">
+          </div>
+          <div class="form-group">
+            <input type="text" class="form-control rounded-input" id="inputDepartment" aria-describedby="department" placeholder="Votre département de résidence">
+          </div>
+          <button  id="btnContact" type="button" name="button" class="btn btn-hacktiv btn-rounded btn-plain btn-block">envoyer</button>
+
+        </form>
+      </div>
+
+
+      <div class="social col-xs-12 col-sm-6 offset-sm-3 col-md-4 offset-md-4" id="formContact">
+        <div class="my-2">
+          <button  id="btnFacebook" type="button" name="button" class="btn btn-facebook btn-rounded btn-hacktiv btn-block">Partager sur Facebook</button>
+        </div>
+        <div class="my-2">
+          <button  id="btnTwitter" type="button" name="button" class="btn btn-twitter btn-rounded btn-hacktiv btn-block">Partager sur Twitter</button>
+        </div>
+      </div>
+
+    </section>
 
 
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <script src="../faq/faq.js"></script>
+    <script src="../contact/contact.js"></script>
   </body>
 </html>

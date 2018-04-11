@@ -38,7 +38,107 @@ header#contact {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)), url(../assets/DR_2013_0608OperaLille_14.jpeg);
   background-size: cover;
   background-position: bottom;
-  height: 60vh;
+  height: 50vh;
   background-attachment: fixed;
   color: #fff;
+}
+
+
+/*Section contact*/
+
+
+section.section-title {
+  padding: 60px 0 30px;
+}
+
+section h2 {
+  margin-bottom: 30px;
+  font-size: 180%;
+  word-spacing: 2px;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+
+section h2:after {
+  display: block;
+  height: 2px;
+  background-color: #ff3547;
+  content: " ";
+  width: 100px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+section .long-copy {
+  margin-bottom: 30px;
+}
+
+
+/*FORM*/
+
+/*Input*/
+.rounded-input {
+  border-radius: 50px;
+}
+
+input.required {
+  border: 1px solid #ff3547;
+}
+
+.form-group.required .input:after {
+   content:"*";
+   color:red;
+}
+
+
+/*BTN*/
+
+.btn-hacktiv {
+  font-size: 12px;
+  color: rgb(255,255,255);
+  letter-spacing: 0.1em;
+  padding: 15px 25px;
+  -webkit-box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+  text-transform: uppercase;
+  white-space: normal!important;
+  word-wrap: break-word;
+  transition: all ease-out .2s;
+}
+
+
+.btn-rounded {
+  border-radius: 10em;
+}
+
+.btn-plain {
+  background-color: #ff3547;
+  border: 1px solid #ff3547;
+}
+
+.btn-plain:hover {
+  background-color: #ff4f5e;
+  border: 1px solid #ff4f5e;
+}
+
+.btn-facebook {
+  background-color: rgba(59, 89, 152,1);
+  border: 1px solid rgba(59, 89, 152,1);
+}
+
+.btn-facebook:hover {
+  background-color: rgba(59, 89, 152,.75);
+  border: 1px solid rgba(59, 89, 152,.75);
+}
+
+.btn-twitter {
+  background-color: rgba(0, 172, 237,1);
+  border: 1px solid rgba(0, 172, 237,1);
+}
+
+.btn-twitter:hover {
+  background-color: rgba(0, 172, 237,.75);
+  border: 1px solid rgba(0, 172, 237,.75);
 }
