@@ -99,7 +99,8 @@ header {
 
 section.sectionOne,
 section.section-icons,
-section.section-temoignage {
+section.section-temoignage,
+section.section-carousel-thematique {
   padding: 60px 0 30px;
 }
 
@@ -187,6 +188,24 @@ section .long-copy {
 .fa-chevron-left:before,
  .fa-chevron-right:before{
   color: #ff4f5e;
+}
+
+/*Carousel thematique*/
+
+.section-carousel-thematique img.thematique {
+  max-width: 60px;
+}
+
+.thematique-caption {
+  background-color: #f7f7f7;
+}
+
+.thematique-caption.art-culture {
+  border-top: 3px solid #FFCD3F;
+}
+
+.thematique-caption.lien-social {
+  border-top: 3px solid #D167B3;
 }
 
 @media (min-width: 992px) {
