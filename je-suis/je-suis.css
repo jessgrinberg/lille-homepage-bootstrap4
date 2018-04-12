@@ -98,7 +98,8 @@ header {
 }
 
 section.sectionOne,
-section.section-icons {
+section.section-icons,
+section.section-temoignage {
   padding: 60px 0 30px;
 }
 
@@ -164,6 +165,28 @@ section .long-copy {
 
 .shadow {
   box-shadow: 2px 2px 8px rgba(0,0,0,.3);
+}
+
+/*Carousel arrows*/
+
+.carousel-control-prev,
+.carousel-control-next {
+  opacity: 1;
+  font-size: 1.5em;
+}
+
+.carousel-control-prev {
+  left: -100px;
+}
+
+
+.carousel-control-next {
+  right: -100px;
+}
+
+.fa-chevron-left:before,
+ .fa-chevron-right:before{
+  color: #ff4f5e;
 }
 
 @media (min-width: 992px) {
