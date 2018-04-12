@@ -207,7 +207,7 @@ section .long-copy {
 
   .heroTwo {
     text-align: center;
-    bottom: -70px;
+    bottom: -115px;
   }
 
   .heroTwo h1 {
@@ -232,6 +232,12 @@ section .long-copy {
 @media (min-width:768px) and (max-width: 992px) {
   .heroTwo {
     bottom: -75px;
+  }
+}
+
+@media (max-width: 992px) {
+  #headerNav .navbar-nav .nav-link {
+    display: inline-block;
   }
 }
 
