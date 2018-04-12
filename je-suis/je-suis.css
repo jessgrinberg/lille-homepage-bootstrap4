@@ -92,6 +92,11 @@ header {
   background-color: #f7f7f7;
 }
 
+.section-icons img {
+  height: 100px;
+  margin: 0 auto;
+}
+
 section.sectionOne,
 section.section-icons {
   padding: 60px 0 30px;
