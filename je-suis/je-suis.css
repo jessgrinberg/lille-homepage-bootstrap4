@@ -88,7 +88,16 @@ header {
 
 /*SECTION*/
 
-section.sectionOne {
+.section-icons {
+  background-color: #f7f7f7;
+}
+
+section.sectionOne,
+section.section-icons {
+  padding: 60px 0 30px;
+}
+
+section.icons {
   padding: 60px 0 30px;
 }
 
