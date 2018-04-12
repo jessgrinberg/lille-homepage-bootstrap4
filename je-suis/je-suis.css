@@ -99,7 +99,7 @@ header {
 
 section.sectionOne,
 section.section-icons,
-section.section-temoignage,
+section.section-carousel-temoignage,
 section.section-carousel-thematique {
   padding: 60px 0 30px;
 }
@@ -176,15 +176,6 @@ section .long-copy {
   font-size: 1.5em;
 }
 
-.carousel-control-prev {
-  left: -100px;
-}
-
-
-.carousel-control-next {
-  right: -100px;
-}
-
 .fa-chevron-left:before,
  .fa-chevron-right:before{
   color: #ff4f5e;
@@ -208,8 +199,47 @@ section .long-copy {
   border-top: 3px solid #D167B3;
 }
 
+@media (max-width:768px) {
+
+  .heroOne img {
+    max-width: 300px;
+  }
+
+  .heroTwo {
+    text-align: center;
+    bottom: -70px;
+  }
+
+  .heroTwo h1 {
+    font-size: 2rem;
+  }
+
+  .heroTwo li {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width:768px) {
+  .carousel-control-prev {
+    left: -100px;
+  }
+
+  .carousel-control-next {
+    right: -100px;
+  }
+}
+
+@media (min-width:768px) and (max-width: 992px) {
+  .heroTwo {
+    bottom: -75px;
+  }
+}
+
+
+
 @media (min-width: 992px) {
   #topNav.navbar {
     max-height: 40px;
   }
+
 }
