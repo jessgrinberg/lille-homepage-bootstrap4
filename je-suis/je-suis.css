@@ -33,6 +33,10 @@ header {
   border-radius: 10px;
 }
 
+.heroTwo li {
+  font-size: 1.2rem;
+}
+
 /*NAV LINKS*/
 
 #headerNav .navbar-nav .nav-link {
