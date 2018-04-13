@@ -199,6 +199,42 @@ section .long-copy {
   border-top: 3px solid #D167B3;
 }
 
+#carouselThematique .carousel-hover {
+  position: absolute;
+  z-index: 1;
+  text-align: center;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+
+#carouselThematique .absolute-div {
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #4A4A4A;
+  transition: visibility 0s, opacity 0.3s ease;
+}
+
+#carouselThematique .carousel-hover p {
+  color: #fff;
+}
+
+#carouselThematique .carousel-content {
+  position: relative;
+}
+
+#carouselThematique .carousel-content:hover .absolute-div{
+  visibility: visible;
+  opacity: 1;
+}
+
+
 @media (max-width:768px) {
 
   .heroOne img {
